@@ -42,7 +42,7 @@ const Navbar = () => {
       justifyContent: "center",
       gap: "5px",
       cursor: "pointer",
-      display: "none", // Hidden by default, visible only on smaller screens
+      display: "none", 
     },
     hamburgerLine: {
       width: "25px",
@@ -68,10 +68,10 @@ const Navbar = () => {
   const mediaQueryStyles = `
     @media (max-width: 768px) {
       .nav-links {
-        display: none !important; /* Hide nav links on small screens */
+        display: none !important; 
       }
       .hamburger {
-        display: flex !important; /* Show hamburger menu on small screens */
+        display: flex !important; 
       }
       .mobile-menu {
         display: flex !important;
@@ -79,10 +79,10 @@ const Navbar = () => {
     }
     @media (min-width: 769px) {
       .hamburger {
-        display: none !important; /* Hide hamburger menu on large screens */
+        display: none !important; 
       }
       .nav-links {
-        display: flex !important; /* Show nav links on large screens */
+        display: flex !important; 
       }
     }
   `;

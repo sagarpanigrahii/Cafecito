@@ -1,9 +1,9 @@
 import React from "react";
-import { useNavigate } from "react-router-dom"; // Import useNavigate
-import coffeeImage from "../assets/pexels-chevanon-312418.jpg"; // Replace with the correct path to your image
+import { useNavigate } from "react-router-dom"; 
+import coffeeImage from "../assets/pexels-chevanon-312418.jpg"; 
 
 const Home = () => {
-  const navigate = useNavigate(); // Initialize useNavigate
+  const navigate = useNavigate(); 
 
   const heroStyles = {
     section: {
@@ -90,7 +90,7 @@ const Home = () => {
         </p>
         <button
           style={heroStyles.button}
-          onClick={() => navigate("/reservation")} // Navigate to reservation page
+          onClick={() => navigate("/reservation")} 
           onMouseOver={(e) => (e.target.style.backgroundColor = "darkorange")}
           onMouseOut={(e) => (e.target.style.backgroundColor = "coral")}
         >

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import backgroundImage from "../assets/coffee-171653_1280.jpg"; // Replace with the actual path to the image
+import backgroundImage from "../assets/coffee-171653_1280.jpg"; 
 
 const Menus = () => {
   const [activeMenu, setActiveMenu] = useState("Coffee");
@@ -44,7 +44,7 @@ const Menus = () => {
       display: "flex",
       justifyContent: "center",
       gap: "1rem",
-      flexWrap: "wrap", // Allow buttons to wrap on smaller screens
+      flexWrap: "wrap", 
       marginBottom: "2rem",
     },
     button: {
@@ -66,8 +66,8 @@ const Menus = () => {
       border: "1px solid #ccc",
       borderRadius: "5px",
       padding: "1rem",
-      width: "90%", // Adjust width for smaller screens
-      maxWidth: "600px", // Limit max width
+      width: "90%", 
+      maxWidth: "600px", 
       textAlign: "left",
       backgroundColor: "#fff",
       boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
@@ -104,7 +104,7 @@ const Menus = () => {
         padding: "1rem",
       },
       menuTable: {
-        width: "100%", // Use full width for very small screens
+        width: "100%", 
         padding: "0.5rem",
       },
       tableHeader: {

@@ -1,12 +1,11 @@
 import React from "react";
-import backgroundImage from "../assets/fresh-coffee-steams-wooden-table-close-up-generative-ai_188544-8923.avif"; // Update with the correct path to your image file
-
+import backgroundImage from "../assets/fresh-coffee-steams-wooden-table-close-up-generative-ai_188544-8923.avif"; 
 const FindUs = () => {
   const styles = {
     container: {
       padding: "2rem",
       fontFamily: "'Arial', sans-serif",
-      backgroundImage: `url(${backgroundImage})`, // Use the imported image
+      backgroundImage: `url(${backgroundImage})`, 
       backgroundSize: "cover",
       backgroundPosition: "center",
       color: "#333",
@@ -75,10 +74,10 @@ const FindUs = () => {
             <strong>Address:</strong> 123 Trailhead Way, Mountain Town, MT 98765
           </p>
           <p>
-            <strong>Phone:</strong> +91 77880 78024
+            <strong>Phone:</strong> 555 555
           </p>
           <p>
-            <strong>Email:</strong> sagar.trushnapanigrahi2002@gmail.com
+            <strong>Email:</strong> cafecito@gmail.com
           </p>
         </div>
         <div style={styles.section}>

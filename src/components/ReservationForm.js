@@ -19,7 +19,7 @@ const ReservationForm = () => {
     alert(
       `Reservation confirmed for ${formData.name} on ${formData.date} at ${formData.time} for ${formData.guests} guest(s).`
     );
-    // You can replace this with logic to send the data to a server
+    
   };
 
   const formStyles = {
